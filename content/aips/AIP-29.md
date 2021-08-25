@@ -61,7 +61,7 @@ By deploying an AMO for Aave, the Frax protocol is able to mint FRAX to be borro
 
 9. Social channels data (Size of communities, activity on Github)
 
-	- 13K followers on Twitter, 6.2K members on Telegram, Github is updated .
+	- 13K followers on Twitter, 6.2K members on Telegram, Github is updated frequently.
 
 10. Contracts date of deployments, number of transactions, number of holders for tokens
 
