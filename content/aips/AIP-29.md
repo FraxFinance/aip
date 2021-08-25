@@ -100,7 +100,7 @@ Following the steps from the [Aave governance docs](https://docs.aave.com/develo
 
 [Trail of Bits Audit](https://github.com/trailofbits/publications/blob/master/reviews/FraxFinance.pdf)
 
-[CertiK Audit]https://www.certik.org/projects/fraxfinance)
+[CertiK Audit](https://www.certik.org/projects/fraxfinance)
 
 **Note that the risk assessment was performed in May 2021, when FRAX's market cap was $110M**
 
