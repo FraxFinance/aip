@@ -57,7 +57,7 @@ By deploying an AMO for Aave, the Frax protocol is able to mint FRAX to be borro
     - Market Cap: $307M
     - 24h Volume: $15M
     - Volatility: Extremely Low
-    - Maturity: Medium
+    - Maturity: Early-Mid
 
 9. Social channels data (Size of communities, activity on Github)
 
@@ -82,8 +82,8 @@ FRAX will only be used for depositing and lending and not as collateral, with a 
 
   - Strategy: rateStrategyStableTwo
   - Base LTV As Collateral: 0
-  - Liquidation Threshold: 7000
-  - Liquidation Bonus: 10500
+  - Liquidation Threshold: 0
+  - Liquidation Bonus: 0
   - Borrowing Enabled: true
   - Stable BorrowRate Enabled: false
   - Reserve Decimals: 18
