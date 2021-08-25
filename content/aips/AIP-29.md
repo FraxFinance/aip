@@ -10,17 +10,19 @@ created: 2021-08-25
 
 ## Simple Summary
 
-Frax is the first algorithmic-stablecoin protocol, backed through on-chain collateral and algorithmically. Frax has two tokens, the FRAX stablecoin pegged at $1 and the FXS governance + seigniorage token, and aims to be a decentralized crypto-native unit of account with the upcoming Frax Price Index (FPI).
+Frax is the first algorithmic-stablecoin protocol, backed through on-chain collateral and algorithmically. Frax has two tokens, the FRAX stablecoin pegged at $1 and the FXS governance + seigniorage token, and aims to be a decentralized crypto-native unit of account with the upcoming Frax Price Index (FPI). FRAX has stayed at $1 for its entire existence, being the only non-traditional stablecoin to keep its peg perfectly in 8 months of release.
 
 ## Abstract
 
-The FRAX stablecoin is partially backed with on-chain collateral and partially backed algorithmically, according to a collateral ratio (CR) parameter that the system adjusts according to market conditions. In Frax v2, the protocol is able to mint FRAX into lending markets using Algorithmic Market Operations (AMOs), smart contracts which have the ability to print FRAX up to certain thresholds adjustable by governance.
+The FRAX stablecoin is partially backed with on-chain collateral and partially backed algorithmically, according to a collateral ratio (CR) parameter that the system adjusts according to market conditions. In Frax v2, the protocol is able to mint FRAX into lending markets using [Algorithmic Market Operations](https://docs.frax.finance/amo/overview) (AMOs), smart contracts which have the ability to print FRAX up to certain thresholds adjustable by governance.
 
 ## Motivation
 
 As the value of Aave's TVL increases, borrow liquidity for stablecoins against volatile assets lent to Aave is one of the key benefits that is offered to lenders of the protocol. The flow of newly minted stablecoins to their decentralized lending market destination such as Aave is not always direct, and may face market inefficiencies through layers of actors.
 
-By deploying an AMO for Aave, the Frax protocol is able to mint FRAX to be borrowed by lenders of Aave, and thus offer an active and competitive alternative to other stablecoins such as USDC, USDT, and DAI. By allowing for responsive stablecoin liquidity, we aim to benefit lenders and the Aave ecosystem as a whole.
+By [deploying an AMO for Aave](https://docs.frax.finance/amo/frax-lending), the Frax protocol is able to mint FRAX to be borrowed by lenders of Aave, and thus offer an active and competitive alternative to other stablecoins such as USDC, USDT, and DAI. By allowing for responsive stablecoin liquidity, we aim to benefit lenders and the Aave ecosystem as a whole.
+
+Additionally, With no collateral factor, there is 0 risk for Aave's money market in terms of the FRAX peg. Furthermore, if the FRAX peg broke and fell below $1, Aave borrowers would have less debt in dollar terms.
 
 ## Specification
 
