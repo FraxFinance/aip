@@ -1,4 +1,3 @@
-
 ---
 aip: 29
 title: Add FRAX to Aave V2
@@ -11,11 +10,11 @@ created: 2021-08-25
 
 ## Simple Summary
 
-Frax is the first algorithmic-stablecoin protocol, backed partially by on-chain stablecoin collateral and partially algorithmically. Frax has two tokens, the FRAX stablecoin pegged at $1 and the FXS governance + seigniorage token, and aims to be a decentralized crypto-native unit of account with the upcoming Frax Price Index (FPI).
+Frax is the first algorithmic-stablecoin protocol, backed through on-chain collateral and algorithmically. Frax has two tokens, the FRAX stablecoin pegged at $1 and the FXS governance + seigniorage token, and aims to be a decentralized crypto-native unit of account with the upcoming Frax Price Index (FPI).
 
 ## Abstract
 
-The FRAX stablecoin is partially backed with on-chain collateral and partially algorithmically, according to a collateral ratio (CR) parameter that the system adjusts according to market conditions. In Frax v2, the protocol is able to mint FRAX into lending markets using Algorithmic Market Operations (AMOs), smart contracts which have the ability to print FRAX up to certain thresholds adjustable by governance.
+The FRAX stablecoin is partially backed with on-chain collateral and partially backed algorithmically, according to a collateral ratio (CR) parameter that the system adjusts according to market conditions. In Frax v2, the protocol is able to mint FRAX into lending markets using Algorithmic Market Operations (AMOs), smart contracts which have the ability to print FRAX up to certain thresholds adjustable by governance.
 
 ## Motivation
 
@@ -27,48 +26,48 @@ By deploying an AMO for Aave, the Frax protocol is able to mint FRAX to be borro
 
 1. What is the link between the author of the AIP and the Asset?
 
-Co-founder of Frax.
+	- Co-founder of Frax.
 
 2. Provide a brief high-level overview of the project and the token
 
-FRAX is the world's first fractionally-algorithmic stablecoin, stabilized with parts on-chain collateral and parts algorithmically.
+	- FRAX is the world's first fractionally-algorithmic stablecoin, stabilized with parts on-chain collateral and parts algorithmically.
 
 3. Explain positioning of token in the AAVE ecosystem. Why would it be a good borrow or collateral asset?
 
-Frax's AMOs are able to mint FRAX into the Aave lending market, allowing for highly competitive stablecoin borrowing rates for lenders.
+	- Frax's AMOs are able to mint FRAX into the Aave lending market, allowing for highly competitive stablecoin borrowing rates for lenders.
 
 4. Provide a brief history of the project and the different components: DAO (is it live?), products (are the live?). How did it overcome some of the challenges it faced?
 
-FRAX launched at the end of 2020, and currently has over $300M in circulating FRAX. FRAX has never once broken the peg of $1, even through sharp market downturns such as in March 2021. Frax's governance token FXS has maintained governance functionality since inception through a fork of Compound's GovernorAlpha.
+	- FRAX launched at the end of 2020, and currently has over $300M in circulating FRAX. FRAX has never once broken the peg of $1, even through sharp market downturns such as in March 2021. Frax's governance token FXS has maintained governance functionality since inception through a fork of Compound's GovernorAlpha.
 
 5.How is the asset currently used?
 
-FRAX is currently used as a stablecoin in decentralized exchanges and other lending markets, such as Rari's Fuse Protocol, where it is currently the most-borrowed and most-supplied stablecoin in several pools through Frax's AMOs.
+	- FRAX is currently used as a stablecoin in decentralized exchanges and other lending markets, such as Rari's Fuse Protocol, where it is currently the most-borrowed and most-supplied stablecoin in several pools through Frax's AMOs.
 
 6. Emission schedule
 
-There is no emission schedule; FRAX is mintable by anyone anytime by depositing corresponding amounts of collateral and FXS into the system's contracts.
+	- There is no emission schedule; FRAX is mintable by anyone anytime by depositing corresponding amounts of collateral and FXS into the system's contracts.
 
 7. Token & protocol permissions and upgradability
 
-The protocol is highly modular in terms of system parameters such as oracle addresses and AMO additions, but the core contracts such as the token contract itself are non-proxy deployed and permissioned through governance's 2-day timelock, with a backup multisig admin address managed by the core Frax team, with plans to transition fully into DAO permissions with comptrollers.
+	- The protocol is highly modular in terms of system parameters such as oracle addresses and AMO additions, but the core contracts such as the token contract itself are non-proxy deployed and permissioned through governance's 2-day timelock, with a backup multisig admin address managed by the core Frax team, with plans to transition fully into DAO permissions with comptrollers.
 
 8. Market data (Market Cap, 24h Volume, Volatility, Exchanges, Maturity)
 
-    Market Cap: $307M
-    24h Volume: $15M
-    Volatility: Extremely Low
-    Maturity: Medium
+    - Market Cap: $307M
+    - 24h Volume: $15M
+    - Volatility: Extremely Low
+    - Maturity: Medium
 
 9. Social channels data (Size of communities, activity on Github)
 
-13K followers on Twitter, 6.2K members on Telegram, Github is updated .
+	- 13K followers on Twitter, 6.2K members on Telegram, Github is updated .
 
 10. Contracts date of deployments, number of transactions, number of holders for tokens
 
-    Date of Deployment: December 20th, 2020
-    Number of Transactions: 110,000+
-    Number of Holders: 1,600+
+    - Date of Deployment: December 20th, 2020
+    - Number of Transactions: 110,000+
+    - Number of Holders: 1,600+
 
 ## Rationale
 
