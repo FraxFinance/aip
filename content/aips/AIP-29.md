@@ -38,11 +38,11 @@ By deploying an AMO for Aave, the Frax protocol is able to mint FRAX to be borro
 
 4. Provide a brief history of the project and the different components: DAO (is it live?), products (are the live?). How did it overcome some of the challenges it faced?
 
-	- FRAX launched at the end of 2020, and currently has over $300M in circulating FRAX. FRAX has never once broken the peg of $1, even through sharp market downturns such as in March 2021. Frax's governance token FXS has maintained governance functionality since inception through a fork of Compound's GovernorAlpha.
+	- FRAX launched at the end of 2020 and currently has over $300M in circulating FRAX. FRAX has never once broken the peg of $1, even through sharp market downturns such as in March 2021. Frax's governance token FXS has maintained governance functionality since inception through a fork of Compound's GovernorAlpha.
 
 5. How is the asset currently used?
 
-	- FRAX is currently used as a stablecoin in decentralized exchanges and other lending markets, such as Rari's Fuse Protocol, where it is currently the most-borrowed and most-supplied stablecoin in several pools through Frax's AMOs.
+	- FRAX is currently used as a stablecoin in decentralized exchanges and other lending markets such as Rari's Fuse Protocol, where it is currently the most-borrowed and most-supplied stablecoin in several pools through Frax's AMOs.
 
 6. Emission schedule
 
